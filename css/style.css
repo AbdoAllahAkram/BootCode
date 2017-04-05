@@ -240,7 +240,7 @@ body {
 
 .testimonial h1 {
     color: #fff;
-    padding-top: 70px;
+    padding-top: 60px;
     margin-bottom: 45px;
 }
 
@@ -301,6 +301,7 @@ body {
 
 .price_plan {
     background-color: #f7f7f7;
+    margin-bottom: 50px;
 } 
 
 .price_plan h1 {
@@ -370,3 +371,42 @@ body {
 }
 
 /* End Price Plan */
+
+/* Start Our Team */
+
+.our_team {
+    background: url("../images/our_team.jpg")  no-repeat fixed center;
+    background-size: cover;
+    color: #fff;
+    min-height: 600px;
+}
+
+.our_team .team {
+    background-color: rgba(3,3,3,.85);
+    min-height: 600px;
+}
+
+.our_team .team h1 {
+    padding-top: 60px;
+    margin-bottom: 70px;
+}
+
+.our_team .team .person {
+    padding-bottom: 30px;
+}
+
+.our_team .team .person img {
+    filter: brightness(.7)
+}
+
+.our_team .team .person h4 {
+    padding-top: 5px;
+}
+
+.our_team .team .person i {
+    color: #dddddd;
+    margin-right: 3px;
+    margin-top: 5px;
+}
+
+/* End Our Team */
