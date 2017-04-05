@@ -146,10 +146,7 @@ body {
 
 .carousel-control .glyphicon-menu-left,
 .carousel-control .glyphicon-menu-right {
-    position: absolute;
     top: 50%;
-    z-index: 5;
-    display: inline-block;
     font-size: 45px;
 }
 /* ---- End Slider ----*/
