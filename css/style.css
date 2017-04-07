@@ -1,12 +1,13 @@
-
 /* General */
+
 body {
     font-family: 'Comfortaa', cursive;
-    height:5000px;
+    height: 5000px;
 }
 
 
 /*-------- Start Overriding Bootstrap ---------*/
+
 
 /* ----Start NavBar---- */
 
@@ -17,13 +18,12 @@ body {
 .navbar {
     border-radius: 0;
     min-height: 70px;
-    
 }
 
 .navbar .support {
     background: #e6e6e6;
     padding: 20px 0;
-} 
+}
 
 .navbar .support span {
     float: right;
@@ -38,15 +38,15 @@ body {
         text-align: center;
         float: none
     }
-    
     .navbar .support {
         text-align: center;
-    } 
+    }
 }
 
 .navbar-toggle {
     margin-top: 18px;
 }
+
 
 /* Brand */
 
@@ -56,35 +56,36 @@ body {
 }
 
 @media (max-width: 768px) {
-    .navbar-inverse .navbar-brand
-     {
+    .navbar-inverse .navbar-brand {
         margin-top: -6px;
     }
-
 }
 
-.navbar-brand > img {
+.navbar-brand>img {
     width: 70px;
     float: left;
     margin-right: 10px;
 }
 
-.navbar-brand > span {
+.navbar-brand>span {
     font-size: 22px;
     line-height: 45px;
-    
 }
 
+
 /* Active Link */
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus {
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
     background-color: #65af00;
     color: #fff;
 }
 
+
 /* Link Color */
-.navbar-inverse .navbar-nav > li > a {
+
+.navbar-inverse .navbar-nav>li>a {
     color: #dedede;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -92,22 +93,21 @@ body {
 }
 
 
-
 /* DrobDown MUue*/
-.navbar-nav > li > .dropdown-menu {
+
+.navbar-nav>li>.dropdown-menu {
     border-top: 4px solid #65af00;
     min-width: 180px;
-   
 }
 
-.dropdown-menu > li > a {
+.dropdown-menu>li>a {
     -webkit-transition: padding .5s ease;
     -moz-transition: padding .5s ease;
     -o-transition: padding .5s ease;
     transition: padding .5s ease;
 }
 
-.dropdown-menu > li > a:hover {
+.dropdown-menu>li>a:hover {
     background-color: #65af00;
     color: #fff;
     padding-left: 30px;
@@ -116,23 +116,23 @@ body {
 
 /* ----End NavBar---- */
 
+
 /* ---- Start Slider ----*/
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
     max-width: 100%;
     max-height: 100%;
     filter: brightness(35%);
 }
 
-.carousel-inner > .item {
+.carousel-inner>.item {
     max-height: 600px;
     overflow: hidden
 }
 
 .carousel-caption {
     margin-bottom: 10%;
-
 }
 
 .carousel-caption h1 {
@@ -149,9 +149,13 @@ body {
     top: 50%;
     font-size: 45px;
 }
+
+
 /* ---- End Slider ----*/
 
+
 /*-------- End Overriding Bootstrap ---------*/
+
 
 /* Start About */
 
@@ -162,28 +166,28 @@ body {
 }
 
 .about span {
-    color:#65af00;
+    color: #65af00;
 }
 
 .about p {
     color: #908c8c;
 }
 
+
 /* End About */
+
 
 /* Start Features */
 
 .features {
     background-color: #65af00;
     margin-top: 50px;
-    margin-bottom: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-
 .features .feat span.glyphicon {
-    color:#fff;
+    color: #fff;
     font-size: 40px;
     padding: 30px;
     border-radius: 50%;
@@ -192,16 +196,13 @@ body {
     -moz-transition: .7s ease;
     -o-transition: .7s ease;
     transition: .7s ease;
-    
-    
-} 
+}
 
 .features .feat:hover span.glyphicon {
     border: 1px solid #fff;
-    color:#65af00;
+    color: #65af00;
     background-color: #fff;
-    
-        -webkit-transform: scale(1.1, 1.1) rotate(360deg);
+    -webkit-transform: scale(1.1, 1.1) rotate(360deg);
     -moz-transform: scale(1.1, 1.1) rotate(360deg);
     -o-transform: scale(1.1, 1.1) rotate(360deg);
     transform: scale(1.1, 1.1) rotate(360deg);
@@ -216,24 +217,23 @@ body {
     line-height: 1.9
 }
 
+
 /* End Features */
 
 
 /* Start Testimonial */
 
 .testimonial {
-     background: url("../images/testimonial.jpg") no-repeat top ;
+    background: url("../images/testimonial.jpg") no-repeat top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin-top: 50px;
-    margin-bottom: 50px;
     background-attachment: fixed;
- }
+}
 
 .testimonial .overlay {
-    background-color: rgba(3,3,3,.85);
+    background-color: rgba(3, 3, 3, .85);
     width: 100%;
     height: 100%;
 }
@@ -263,7 +263,6 @@ body {
     margin-left: auto;
 }
 
-
 .testimonial .carousel-indicators li {
     width: 80px;
     text-indent: 0;
@@ -278,7 +277,6 @@ body {
     -moz-transition: all .6 ease;
     -o-transition: all .6 ease;
     transition: all .6s ease;
-    
 }
 
 .testimonial .carousel-indicators li.active {
@@ -288,21 +286,21 @@ body {
     -moz-transform: scale(1.2, 1.2) rotate(360deg);
     -o-transform: scale(1.2, 1.2);
     transform: scale(1.2, 1.2)
-
 }
 
 .testimonial .carousel-indicators li img {
     max-width: 100%;
 }
 
+
 /* End Testimonial */
+
 
 /* Start Price Plan */
 
 .price_plan {
     background-color: #f7f7f7;
-    margin-bottom: 50px;
-} 
+}
 
 .price_plan h1 {
     margin-top: 40px;
@@ -370,19 +368,21 @@ body {
     margin-bottom: 20px
 }
 
+
 /* End Price Plan */
+
 
 /* Start Our Team */
 
 .our_team {
-    background: url("../images/our_team.jpg")  no-repeat fixed center;
+    background: url("../images/our_team.jpg") no-repeat fixed center;
     background-size: cover;
     color: #fff;
     min-height: 600px;
 }
 
 .our_team .team {
-    background-color: rgba(3,3,3,.85);
+    background-color: rgba(3, 3, 3, .85);
     min-height: 600px;
 }
 
@@ -409,4 +409,43 @@ body {
     margin-top: 5px;
 }
 
+
 /* End Our Team */
+
+
+/* Start Subscribtion */
+
+.subscribe {
+    background-color: #f7f7f7;
+}
+
+.subscribe h1 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #525252;
+}
+
+.subscribe p {
+    color: #9a9a9a
+}
+
+.subscribe .form-inline {
+    margin-bottom: 40px;
+}
+
+.subscribe .form-control {
+    margin-right: -5px;
+    border-radius: 6px 0 0px 6px;
+    padding-right: 90px
+}
+
+.subscribe .btn {
+    border-radius: 0 6px 6px 0
+}
+
+.subscribe .btn i {
+    padding-right: 10px
+}
+
+
+/* End Subscribtion */
