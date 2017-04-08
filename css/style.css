@@ -639,6 +639,7 @@ body {
 
 .footer social-icon {
     margin-top: 20px;
+
     
 }
 
@@ -647,6 +648,7 @@ body {
     padding-right: 8px;
     margin-top: 20px;
     width: 16.666666666%;
+        margin-bottom: 30px;
 }
 
 .footer .social-icon li img {
