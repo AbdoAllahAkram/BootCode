@@ -445,11 +445,13 @@ body {
 .subscribe .form-control {
     margin-right: -5px;
     border-radius: 6px 0 0px 6px;
-    padding-right: 90px
+    padding-right: 90px;
+    margin-top: 10px;
 }
 
 .subscribe .btn {
-    border-radius: 0 6px 6px 0
+    border-radius: 0 6px 6px 0;
+    margin-top: 10px;
 }
 
 .subscribe .btn i {
