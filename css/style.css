@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Comfortaa', cursive;
-    height: 9000px;
 }
 
 
@@ -371,7 +370,9 @@ body {
 
 .price_plan .price_box li {
     line-height: 280%;
-    color: #5c5c5c
+    color: #5c5c5c;
+    border-bottom: 1px solid #f1f1f1;
+
 }
 
 .price_plan .price_box .btn {
@@ -606,5 +607,79 @@ body {
     padding-bottom: 20px;
 }
 
-
 /* End Sponsored */
+
+/* Start Footer */
+
+.footer {
+    background: #252525;
+    color: #d3d3d3;
+    padding-top: 20px;
+    padding-bottom: ;
+    margin-bottom: 0
+}
+
+.footer h3 {
+    color: #65af00;
+    margin-bottom: 25px
+}
+
+.footer .site-map li{
+    width: 33.33333333%;
+    padding-bottom: 15px;
+    float:left
+}
+
+.footer .site-map li a {color: #c1c1c1}
+
+.footer .site-map li a:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+.footer social-icon {
+    margin-top: 20px;
+    
+}
+
+.footer .social-icon li {
+    float: left;
+    padding-right: 8px;
+    margin-top: 20px;
+    width: 16.666666666%;
+}
+
+.footer .social-icon li img {
+    width: 45px
+}
+
+.footer .media img {
+    width: 64px
+}
+
+.footer .img-thumbnail {
+    padding: 0;
+    padding-bottom: 4px;
+    background-color: #252525;
+    border: none;
+    border-radius: 0
+}
+
+.footer p.copyright {
+    background: rgba(70, 70, 70, 0.2);
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.footer .copyright a {color: #65af00}
+
+.footer .copyright a:hover {
+    color: #80cb1a;
+    text-decoration: none
+}
+
+
+/* End Footer */
