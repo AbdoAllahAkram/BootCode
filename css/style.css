@@ -57,8 +57,6 @@ body {
 }
 
 
-
-
 /* Brand */
 
 .navbar-inverse .navbar-brand {
@@ -124,7 +122,7 @@ body {
     padding-left: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .navbar-brand>img {
         width: 50px;
         margin-top: 6px;
@@ -132,11 +130,17 @@ body {
     .navbar-brand>span {
         font-size: 18px;
     }
-    
     .navbar-toggle {
         margin-top: 13px;
     }
+    .navbar-inverse .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+}
+
+
+
 
 /* ----End NavBar---- */
 
@@ -172,6 +176,13 @@ body {
 .carousel-control .glyphicon-menu-right {
     top: 50%;
     font-size: 45px;
+}
+
+@media (max-width: 767px) {
+    .carousel-caption {
+        margin-bottom: 10%;
+    }
+    .carousel-caption h1 {}
 }
 
 
@@ -387,7 +398,6 @@ body {
     line-height: 280%;
     color: #5c5c5c;
     border-bottom: 1px solid #f1f1f1;
-
 }
 
 .price_plan .price_box .btn {
@@ -606,6 +616,7 @@ body {
     border: none
 }
 
+
 /* End Contact Us */
 
 
@@ -624,7 +635,9 @@ body {
     padding-bottom: 20px;
 }
 
+
 /* End Sponsored */
+
 
 /* Start Footer */
 
@@ -641,13 +654,15 @@ body {
     margin-bottom: 25px
 }
 
-.footer .site-map li{
+.footer .site-map li {
     width: 33.33333333%;
     padding-bottom: 15px;
-    float:left
+    float: left
 }
 
-.footer .site-map li a {color: #c1c1c1}
+.footer .site-map li a {
+    color: #c1c1c1
+}
 
 .footer .site-map li a:hover {
     color: #fff;
@@ -656,8 +671,6 @@ body {
 
 .footer social-icon {
     margin-top: 20px;
-
-    
 }
 
 .footer .social-icon li {
@@ -665,7 +678,7 @@ body {
     padding-right: 8px;
     margin-top: 20px;
     width: 16.666666666%;
-        margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .footer .social-icon li img {
@@ -693,7 +706,9 @@ body {
     margin-bottom: 0;
 }
 
-.footer .copyright a {color: #65af00}
+.footer .copyright a {
+    color: #65af00
+}
 
 .footer .copyright a:hover {
     color: #80cb1a;
