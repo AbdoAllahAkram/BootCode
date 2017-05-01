@@ -27,7 +27,6 @@ body {
 .navbar .support span {
     float: right;
     line-height: 5px;
-    color: #65af00;
     font-size: 15px;
     display: inline-block;
 }
@@ -44,16 +43,6 @@ body {
 
 .navbar-toggle {
     margin-top: 18px;
-}
-
-.btn-success {
-    background-color: #65af00;
-    border-color: #4cae4c;
-}
-
-.btn-success:hover {
-    background-color: #549100;
-    border-color: #4cae4c;
 }
 
 
@@ -76,6 +65,11 @@ body {
     margin-right: 10px;
 }
 
+.navbar-brand>i {
+    color: #a80000;
+    font-size: 50px
+}
+
 .navbar-brand>span {
     font-size: 22px;
     line-height: 45px;
@@ -87,7 +81,6 @@ body {
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus {
-    background-color: #65af00;
     color: #fff;
 }
 
@@ -105,7 +98,6 @@ body {
 /* DrobDown MUue*/
 
 .navbar-nav>li>.dropdown-menu {
-    border-top: 4px solid #65af00;
     min-width: 180px;
 }
 
@@ -117,7 +109,6 @@ body {
 }
 
 .dropdown-menu>li>a:hover {
-    background-color: #65af00;
     color: #fff;
     padding-left: 30px;
 }
@@ -163,14 +154,8 @@ body {
     margin-bottom: 10%;
 }
 
-.carousel-caption h1 {
-    color: #93ea1c;
-}
 
-.carousel-indicators .active {
-    background-color: #65af00;
-    border: 1px solid #65af00;
-}
+
 
 .carousel-control .glyphicon-menu-left,
 .carousel-control .glyphicon-menu-right {
@@ -192,6 +177,45 @@ body {
 /*-------- End Overriding Bootstrap ---------*/
 
 
+/* Start Option Box */
+
+.option-box {
+    position: fixed;
+    top: 100px;
+    left: 0;
+}
+
+.option-box .color-option {
+    background: #333;
+    color: #fff;
+    padding: 5px 50px 5px 5px;
+    float: left;
+    display: none;
+}
+
+.option-box .color-option ul {
+    display: inline-block;
+    padding: 5px
+
+}
+
+.option-box .color-option ul li {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.option-box .check-gear {
+    padding: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* End Option Box */
+
+
 /* Start About */
 
 .about {
@@ -200,9 +224,7 @@ body {
     color: #333333;
 }
 
-.about span {
-    color: #65af00;
-}
+
 
 .about p {
     color: #908c8c;
@@ -215,7 +237,6 @@ body {
 /* Start Features */
 
 .features {
-    background-color: #65af00;
     margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -226,7 +247,6 @@ body {
     font-size: 40px;
     padding: 30px;
     border-radius: 50%;
-    border: 1px solid #65af00;
     -webkit-transition: .7s ease;
     -moz-transition: .7s ease;
     -o-transition: .7s ease;
@@ -235,7 +255,6 @@ body {
 
 .features .feat:hover span.glyphicon {
     border: 1px solid #fff;
-    color: #65af00;
     background-color: #fff;
     -webkit-transform: scale(1.1, 1.1) rotate(360deg);
     -moz-transform: scale(1.1, 1.1) rotate(360deg);
@@ -285,7 +304,6 @@ body {
 }
 
 .testimonial h4 {
-    color: #65af00;
     padding-top: 15px;
     padding-bottom: 5px;
 }
@@ -315,7 +333,6 @@ body {
 }
 
 .testimonial .carousel-indicators li.active {
-    border: 3px solid #65af00;
     opacity: 1;
     -webkit-transform: scale(1.2, 1.2);
     -moz-transform: scale(1.2, 1.2) rotate(360deg);
@@ -650,7 +667,6 @@ body {
 }
 
 .footer h3 {
-    color: #65af00;
     margin-bottom: 25px
 }
 
@@ -706,12 +722,9 @@ body {
     margin-bottom: 0;
 }
 
-.footer .copyright a {
-    color: #65af00
-}
+
 
 .footer .copyright a:hover {
-    color: #80cb1a;
     text-decoration: none
 }
 

@@ -1,0 +1,58 @@
+/* default theme */
+
+.navbar .support span,
+.about span,
+.features .feat:hover span.glyphicon,
+.testimonial h4,
+.footer h3,
+.footer .copyright a {
+    color: #C62828;
+}
+.dropdown-menu>li>a:hover,
+.subscribe .btn-success,
+.contact-us .btn-success,
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.carousel-indicators .active,
+.option-box .check-gear,
+.features {
+    background-color: #C62828;
+}
+
+.option-box .color-option,
+.option-box .check-gear {
+    border: 2px solid #C62828;
+}
+
+.carousel-indicators .active,
+.features .feat span.glyphicon,
+.subscribe .btn-success,
+.contact-us .btn-success,
+.subscribe .btn-success:hover
+.contact-us .btn-success:hover{
+    border: 1px solid #C62828;
+}
+
+.btn-success:hover {
+    background-color: #b51414;
+}
+
+.footer .copyright a:hover,
+.carousel-caption h1 {
+    color: #e52020;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    border-top: 4px solid #C62828;
+}
+
+
+.testimonial .carousel-indicators li.active {
+    border: 3px solid #C62828;
+
+}
+
+
+
+
