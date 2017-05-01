@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Comfortaa', cursive;
-    overflow: hidden
 }
 
 
@@ -735,7 +734,7 @@ body {
 /* Start Loading */
 .loading {
     background: #65af00;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;

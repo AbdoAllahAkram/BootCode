@@ -29,7 +29,11 @@ $(document).ready(function () {
         $(".loading .spinner").fadeOut(1000,
             function () {
                 $("body").css("overflow", "auto");
-                $(".loading").fadeOut(1000);
+                $(".loading").fadeOut(1000,
+                    function () {
+                        $(".loading").remove();
+                    }
+                );
             });
 
     });
