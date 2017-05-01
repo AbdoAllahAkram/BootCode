@@ -22,13 +22,14 @@ $(document).ready(function () {
 
     });
 
-    // Loading Page
+    
+    setTimeout(function(){
+         // Loading Page
     $(window).ready(function () {
 
 
         $(".loading .spinner").fadeOut(1000,
             function () {
-                $("body").css("overflow", "auto");
                 $(".loading").fadeOut(1000,
                     function () {
                         $(".loading").remove();
@@ -37,6 +38,8 @@ $(document).ready(function () {
             });
 
     });
+    }, 2000);
+ 
 
 
 });
