@@ -46,6 +46,8 @@ $(document).ready(function () {
     
     // Show Scroll Arrow in offset 900
     $(window).scroll(function () {
+        
+        console.log($(this).scrollTop());
 
         if ($(this).scrollTop() >= 900)
             scrollArrow.fadeIn();
