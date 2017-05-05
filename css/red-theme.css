@@ -5,7 +5,8 @@
 .features .feat:hover span.glyphicon,
 .testimonial h4,
 .footer h3,
-.footer .copyright a {
+.footer .copyright a,
+#scroll-arrow {
     color: #C62828;
 }
 .dropdown-menu>li>a:hover,
@@ -39,7 +40,7 @@
 }
 
 .footer .copyright a:hover,
-.carousel-caption h1 {
+.carousel-caption .h1 {
     color: #e52020;
 }
 
