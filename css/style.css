@@ -1,6 +1,9 @@
 /* General */
 
-body {font-family: 'Comfortaa', cursive;  padding-top: 50px;}
+body {
+    font-family: 'Comfortaa',cursive;
+    padding-top: 50px;
+}
 
 
 /*-------- Start Overriding Bootstrap ---------*/

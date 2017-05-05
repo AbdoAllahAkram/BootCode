@@ -26,7 +26,7 @@ $(document).ready(function () {
     setTimeout(function () {
         // Loading Page
         $(window).ready(function () {
-
+            
             $(".loading .spinner").fadeOut(1000,
                 function () {
                     $(".loading").fadeOut(1000,
