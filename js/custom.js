@@ -2,6 +2,16 @@
 /*jshint -W117*/
 $(document).ready(function () {
     'use strict';
+    
+    // NiceScroll Initialize
+     $("html").niceScroll({
+         cursorcolor:"#65af00",
+         cursorborder: "none",
+         scrollspeed: 100
+     });
+    
+    
+    
     // Show Color Option Div When Click On   Chick Gear
     $(".check-gear").click(function () {
         $(".color-option").fadeToggle();
@@ -63,3 +73,7 @@ $(document).ready(function () {
     });
 
 });
+
+for(var i=0; i<inputField.value; i++) {
+      result.textContent = inputField.value - i;
+    }

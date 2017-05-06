@@ -1,0 +1,55 @@
+/* Start Abou Us Page */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.breadcrumb-section {
+    background: #f5f5f5;
+    margin: 22px 0;
+}
+
+.breadcrumb-section .breadcrumb {
+    padding-bottom: 0;
+}
+
+
+.about-us h1 {
+    font-weight: 800;
+    font-size: 80px;
+    letter-spacing: -5px
+}
+
+.about-features {
+    margin: 50px 0;
+}
+
+.about-ceo {
+    background: #e0e0e0;
+    padding-top: 50px;
+}
+
+.about-ceo .ceo-img img {
+    max-width: 200px;
+    margin-left: 20%;
+}
+
+.about-ceo .ceo-content .btn-primary {
+    background: #4e4e4e;
+    border-color: #3c3c3c;
+}
+
+@media (max-width: 768px) {
+    .about-ceo .ceo-content {
+        text-align: center
+    }
+    .about-ceo .ceo-img{
+        margin-left:37%
+    }
+    .about-ceo .ceo-img img {
+        margin-left: auto
+    }
+}
+
+
+/* End Abou Us Page */
